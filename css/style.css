@@ -430,10 +430,24 @@
 	3. Partners Styles
 	-------------------------------------------------------------------*/
 
-	#partners{
+	.partners-promo{
 		background-color:#ffffff;
-		height:130px;
-		max-height:130px;
+		height: 250px;
+		max-height:250px;
+		overflow:hidden;
+		padding: 0 !important;
+	}
+
+	.partners-promo .promo-image{
+		opacity:1;
+		max-height: 150px !important;
+		width: auto;
+	}
+
+	#partners, .partners{
+		background-color:#ffffff;
+		height: 200px;
+		max-height:200px;
 		overflow:hidden;
 		padding: 0 !important;
 	}

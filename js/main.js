@@ -85,14 +85,15 @@ $(document).ready(function() {
 		var newScrollPosition = $(window).scrollTop();
 		var menuItem = $('.logo-menu');
 		if(newScrollPosition > lastScrollPosition) {
-			menuItem.slideUp(1000, 'slow');
+			menuItem.slideUp(1000);
 		}else {
-			menuItem.slideDown(1000, 'slow');
+			menuItem.slideDown(1000);
 		}
 
 
 
 		lastScrollPosition = newScrollPosition;
+		return false;
 	});
 
 	var boxOpened = false;

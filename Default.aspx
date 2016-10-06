@@ -207,7 +207,7 @@
                                             </h1>
                                         </li>
 
-                                         <li>
+                                        <li>
                                             <h1 class="apply-link">
                                                 <a target="_blank" class="info-color1" style="display: block; text-align: center; font-size: 0.8em;" href="arquivos/regulamento_desafio_arenatech_2016.pdf">Veja o Regulamento </a>
                                             </h1>
@@ -312,188 +312,155 @@
                         </div>
                     </div>
 
-                    <!-- parceiros -->
-                    <div id="partners" class="container-fluid">
+                    <!-- realizadores -->
+                    <div class="partners-promo container-fluid">
                         <div class="container">
                             <div class="row">
-                                <div class="col-xs-12">
-                                    <div class="partners-slider">
-                                        <div>
-                                            <img src="/images/partners/1.png" alt=""/>
-                                        </div>
-                                        <div>
-                                            <img src="/images/partners/2.png" alt=""/>
-                                        </div>
-                                        <div>
-                                            <img src="/images/partners/3.png" alt=""/>
-                                        </div>
-                                        <div>
-                                            <img src="/images/partners/4.png" alt=""/>
-                                        </div>
-                                        <div>
-                                            <img src="/images/partners/5.png" alt=""/>
-                                        </div>
-                                        <div>
-                                            <img src="/images/partners/6.png" alt=""/>
-                                        </div>
-                                        <div>
-                                            <img src="/images/partners/7.png" alt=""/>
-                                        </div>
-                                        <div>
-                                            <img src="/images/partners/8.png" alt=""/>
-                                        </div>
-                                        <div>
-                                            <img src="/images/partners/9.png" alt=""/>
-                                        </div>
-                                        <div>
-                                            <img src="/images/partners/10.png" alt=""/>
-                                        </div>
-                                        <div>
-                                            <img src="/images/partners/11.png" alt=""/>
-                                        </div>
-                                        <div>
-                                            <img src="/images/partners/12.png" alt=""/>
-                                        </div>
-                                        <div>
-                                            <img src="/images/partners/13.png" alt=""/>
-                                        </div>
-                                        <div>
-                                            <img src="/images/partners/14.png" alt=""/>
-                                        </div>
-                                        <div>
-                                            <img src="/images/partners/15.png" alt=""/>
-                                        </div>
-                                        <div>
-                                            <img src="/images/partners/16.png" alt=""/>
-                                        </div>
-                                        <div>
-                                            <img src="/images/partners/17.png" alt=""/>
-                                        </div>
-                                        <div>
-                                            <img src="/images/partners/18.png" alt=""/>
-                                        </div>
-                                        <div>
-                                            <img src="/images/partners/19.png" alt=""/>
-                                        </div>
-                                        <div>
-                                            <img src="/images/partners/20.png" alt=""/>
-                                        </div>
-                                        <div>
-                                            <img src="/images/partners/21.png" alt=""/>
-                                        </div>
-                                        <div>
-                                            <img src="/images/partners/22.png" alt=""/>
-                                        </div>
-                                        <div>
-                                            <img src="/images/partners/23.png" alt=""/>
-                                        </div>
-                                        <div>
-                                            <img src="/images/partners/24.png" alt=""/>
-                                        </div>
-                                        <div>
-                                            <img src="/images/partners/25.png" alt=""/>
-                                        </div>
-                                        <div>
-                                            <img src="/images/partners/26.png" alt=""/>
-                                        </div>
-                                        <div>
-                                            <img src="/images/partners/27.png" alt=""/>
-                                        </div>
-                                        <div>
-                                            <img src="/images/partners/28.png" alt=""/>
-                                        </div>
-                                        <div>
-                                            <img src="/images/partners/29.png" alt=""/>
-                                        </div>
-                                        <div>
-                                            <img src="/images/partners/30.png" alt=""/>
-                                        </div>
-                                        <div>
-                                            <img src="/images/partners/31.png" alt=""/>
-                                        </div>
-                                        <div>
-                                            <img src="/images/partners/32.png" alt=""/>
-                                        </div>
-                                        <div>
-                                            <img src="/images/partners/33.png" alt=""/>
-                                        </div>
-                                        <div>
-                                            <img src="/images/partners/34.png" alt=""/>
-                                        </div>
+                             <div class="col-xs-12">
+                                 <h2 class="info-color3 text-center">Promoção</h2>
+                             </div>
+                             <div class="col-xs-12">
+                                <div class="text-center">
+                                    <div>
+                                        <img class="promo-image" src="/images/partners/prefeitura-fb.png" alt=""/>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
+                </div>
 
-                    <div id="contact" class="container-fluid accent-color-bg">
-                        <div class="container">
-                            <div class="row">
-                                <div class="col-xs-12 row-title">Entre em contato </div>
-                            </div>
-
-                            <div class="row">
-
-                                <div class="col-sm-5">
-                                    <br>
-                                    <div class="sub-title">Informações de Contato</div>
-                                    <p>
-                                        Rua Tenente Camargo, 490
-                                        <br>
-                                        Bairro Luther King, CEP 85605-090 
-
-                                        <p><strong>(46) 3524-5922</strong></p>
-                                        <a href="mailto:comunicacao.citfbe@gmail.com" class="color-white">comunicacao.citfbe@gmail.com</a><br>
-                                        <a href="mailto:centrodeinovacaoetecnologia@gmail.com" class="color-white">centrodeinovacaoetecnologia@gmail.com</a>
-                                    </div>
-                                    <br>
-                                    <div class="col-sm-7">
-                                        <div class="form-items-holder">
-                                            <input type="text" name="name" placeholder="Name" required>
-                                            <input type="email" name="email" placeholder="Email" required>
-                                            <div class="form-label">Message</div>
-                                            <textarea name="description" required></textarea>
-                                            <div class="ajax-button">
-                                                <div class="fa fa-check done"></div>
-                                                <div class="fa fa-close failed"></div>
-                                                <input id="submit" type="submit" value="enviar" runat="server">
-                                            </div>
-                                        </div>
-                                    </div>
+                <div id="partners" class="container-fluid">
+                    <div class="container">
+                        <div class="row">
+                         <div class="col-xs-12">
+                             <h2 class="info-color3 text-center">Realização</h2>
+                         </div>
+                         <div class="col-xs-12">
+                            <div class="partners-slider">
+                                <div>
+                                    <img src="/images/partners/citfbe.png" alt=""/>
                                 </div>
 
+                                <div>
+                                    <img src="/images/partners/texcel.png" alt=""/>
+                                </div>
+
+                                <div>
+                                    <img src="/images/partners/findex.png" alt=""/>
+                                </div>
+
+                                <div>
+                                    <img src="/images/partners/acefb.png" alt=""/>
+                                </div>
+
+                                <div>
+                                    <img src="/images/partners/nubetec.png" alt=""/>
+                                </div>
+
+                                <div>
+                                    <img src="/images/partners/sebrae.png" alt=""/>
+                                </div>
+
+                                <div>
+                                    <img src="/images/partners/senai.png" alt=""/>
+                                </div>
+
+                                <div>
+                                    <img src="/images/partners/unioeste.png" alt=""/>
+                                </div>
+
+                                <div>
+                                    <img src="/images/partners/unipar.png" alt=""/>
+                                </div>
+
+                                <div>
+                                    <img src="/images/partners/unisep.png" alt=""/>
+                                </div>
+
+                                <div>
+                                    <img src="/images/partners/utfpr.png" alt=""/>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div id="contact" class="container-fluid accent-color-bg">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xs-12 row-title">Entre em contato </div>
+                    </div>
+
+                    <div class="row">
+
+                        <div class="col-sm-5">
+                            <br>
+                            <div class="sub-title">Informações de Contato</div>
+                            <p>
+                                Rua Tenente Camargo, 490
+                                <br>
+                                Bairro Luther King, CEP 85605-090 
+
+                                <p><strong>(46) 3524-5922</strong></p>
+                                <a href="mailto:comunicacao.citfbe@gmail.com" class="color-white">comunicacao.citfbe@gmail.com</a><br>
+                                <a href="mailto:centrodeinovacaoetecnologia@gmail.com" class="color-white">centrodeinovacaoetecnologia@gmail.com</a>
+                            </div>
+                            <br>
+                            <div class="col-sm-7">
+                                <div class="form-items-holder">
+                                    <input type="text" name="name" placeholder="Name" required>
+                                    <input type="email" name="email" placeholder="Email" required>
+                                    <div class="form-label">Message</div>
+                                    <textarea name="description" required></textarea>
+                                    <div class="ajax-button">
+                                        <div class="fa fa-check done"></div>
+                                        <div class="fa fa-close failed"></div>
+                                        <input id="submit" type="submit" value="enviar" runat="server">
+                                    </div>
+                                </div>
                             </div>
                         </div>
 
-                        <!-- Modal -->
-                        <div class="modal fade" id="challangeModal" role="dialog">
-                            <div class="modal-dialog">
+                    </div>
+                </div>
 
-                              <!-- Modal content-->
-                              <div class="modal-content">
-                                  <div class="modal-body">
-                                     <button type="button" class="close" data-dismiss="modal">&times;</button>
-                                     <a target="_blank" href="https://docs.google.com/forms/d/165Ar9ldNwdMjvEvv57wWEHRPN8xNd4u_nlfw7ORC78s">
-                                            <img class="img-responsive" src="images/findex_panfleto_desafio_arenatech.jpg" alt="Desafio Arenatech 2016" title="Desafio Arenatech 2016"/>
-                                     </a>
-                                 </div>
-                                 <div class="modal-footer">
-                                  <button type="button" class="btn btn-default center-block" data-dismiss="modal">Fechar</button>
-                              </div>
-                          </div>
+                <!-- Modal -->
+                <div class="modal fade" id="challangeModal" role="dialog">
+                    <div class="modal-dialog">
 
+                      <!-- Modal content-->
+                      <div class="modal-content">
+                          <div class="modal-body">
+                             <button type="button" class="close" data-dismiss="modal">&times;</button>
+                             <a target="_blank" href="https://docs.google.com/forms/d/165Ar9ldNwdMjvEvv57wWEHRPN8xNd4u_nlfw7ORC78s">
+                                <img class="img-responsive" src="images/findex_panfleto_desafio_arenatech.jpg" alt="Desafio Arenatech 2016" title="Desafio Arenatech 2016"/>
+                            </a>
+                        </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-default center-block" data-dismiss="modal">Fechar</button>
                       </div>
                   </div>
 
-                  <script src="js/jquery-1.11.2.min.js"></script>
-                  <script src="js/jquery.validate.min.js"></script>
-                  <script src="js/bootstrap.min.js"></script>
-                  <script src="js/slick.min.js"></script>
-                  <script src="js/easeljs-0.7.1.min.js"></script>
-                  <script src="js/tweenjs-0.5.1.min.js"></script>
-                  <script src="js/movieclip-0.7.1.min.js"></script>
-                  <script src="js/logo.js"></script>
-                  <script src="js/main.js?v=1.0"></script>
-              </form>
-          </body>
-          </html>
+              </div>
+          </div>
+
+          <script src="js/jquery-1.11.2.min.js"></script>
+          <script src="js/jquery.validate.min.js"></script>
+          <script
+          src="http://code.jquery.com/ui/1.12.0/jquery-ui.js"
+          integrity="sha256-0YPKAwZP7Mp3ALMRVB2i8GXeEndvCq3eSl/WsAl1Ryk="
+          crossorigin="anonymous"></script>
+
+          <script src="js/bootstrap.min.js"></script>
+          <script src="js/slick.min.js"></script>
+          <script src="js/easeljs-0.7.1.min.js"></script>
+          <script src="js/tweenjs-0.5.1.min.js"></script>
+          <script src="js/movieclip-0.7.1.min.js"></script>
+          <script src="js/logo.js"></script>
+          <script src="js/main.js?v=1.0"></script>
+      </form>
+  </body>
+  </html>
