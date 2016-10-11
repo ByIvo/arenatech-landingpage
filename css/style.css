@@ -79,6 +79,10 @@
 		background-color: #81a23b;
 	}
 
+	.color5-bg{
+		background-color: #E80D0C;
+	}
+
 	.color1{
 		color:#0eb2e8;
 	}
@@ -90,6 +94,9 @@
 	}
 	.color4{
 		color:#ff6a06;
+	}
+	.color5{
+		color:#d83b42;
 	}
 
 	.color1-border{
@@ -103,6 +110,9 @@
 	}
 	.color4-border{
 		border-color:#ff6a06 !important;
+	}
+	.color5-border{
+		color:#d83b42 !important;
 	}
 	/*---- Template Colors End --------*/
 
@@ -556,17 +566,17 @@
 	4. Features Styles
 	-------------------------------------------------------------------*/
 
-	#features{
+	#trails{
 		background-color:#ebeded;
 		position:relative;
-		min-height:540px;
+		min-height:580px;
 		overflow:hidden;
 	}
-	#features .feature-buttons-holder{
+	#trails .feature-buttons-holder{
 		position:relative;
 		clear: both;
 	}
-	#features .feature-button{
+	#trails .feature-button{
 		width:156px;
 		height:156px;
 		border-radius:78px;
@@ -577,19 +587,19 @@
 		transform:scale(1);
 		transition: all 0.7s ease 0s;
 	}
-	#features .feature-button:hover{
+	#trails .feature-button:hover{
 		opacity:0.7;
 	}
 
-	#features .feature-button .feature-icon{
+	#trails .feature-button .feature-icon{
 		margin-bottom:5px;
 	}
-	#features .feature-button .feature-title{
+	#trails .feature-button .feature-title{
 		color:#ffffff;
 		font-size: 14px;
 		text-transform:uppercase;
 	}
-	#features .feature-button .feature-line{
+	#trails .feature-button .feature-line{
 		width:1px;
 		border-left:2px dashed;
 		height:350px;
@@ -597,10 +607,10 @@
 		left:50%;
 		top:100%;
 	}
-	#features .feature-button .feature-line-hide{
+	#trails .feature-button .feature-line-hide{
 		height:0;
 	}
-	#features .feature-button .feature-star{
+	#trails .feature-button .feature-star{
 		font-size:28px;
 		position:absolute;
 		left:50%;
@@ -609,41 +619,51 @@
 		-webkit-transform:scale(1);
 		transform:scale(1);
 	}
-	#features .feature-button .feature-star-hide{
+	#trails .feature-button .feature-star-hide{
 		-webkit-transform:scale(0);
 		transform:scale(0);
 	}
 
-	#features .feature1{
+	#trails .feature1{
 		left:10%;
 		padding-top: 60px;
 	}
-	#features .feature2{
+	#trails .feature2{
 		left:23%;
 		margin-top: 140px;
 		padding-top: 70px;
 	}
-	#features .feature3{
+	#trails .feature3{
 		right:23%;
 		margin-top: 140px;
 	}
-	#features .feature4{
+	#trails .feature4{
 		right:10%;
 		padding-top: 60px;
 	}
-	#features .inside-box-left{
+	#trails .feature5{
+		left: 50%;
+		transform: translateX(-50%) scale(1);
+		margin-top: 270px;
+	}
+	#trails .inside-box-left{
 		margin-top: 120px;
 		left:50%;
 		margin-left:-78px;
 		transform:scale(0);
 	}
-	#features .inside-box-right{
+	#trails .inside-box-right{
 		margin-top: 120px;
 		right:50%;
 		margin-right:-78px;
 		transform:scale(0);
 	}
-	#features .box3d{
+	#trails .inside-box-center{
+		margin-top: 120px;
+		transform: translateX(-50%) scale(0);
+	}
+
+	#trails .box3d{
 	/*
 	-webkit-transform: rotateY(45deg);
     transform: rotateY(45deg);
@@ -658,7 +678,7 @@
 
 }
 
-#features .box3d img{
+#trails .box3d img{
 	position:absolute;
 	left: 0;
 	right: 0;
@@ -672,7 +692,7 @@
 
 }
 
-#features .box3d .box3d-open{
+#trails .box3d .box3d-open{
 	-webkit-transform: rotateX(110deg) rotateY(-22deg) rotateZ(50deg) translateY(0px) translateX(10px) translateZ(47px) scaleX(0.8) !important;
 	transform: rotateX(110deg) rotateY(-22deg) rotateZ(50deg) translateY(0px) translateX(10px) translateZ(47px) scaleX(0.8) !important;
 	opacity:0.8;
@@ -1203,34 +1223,34 @@
 
 	/* Other screens styles modifications */
 	@media (max-width: 1200px) {
-		#features .feature1{
+		#trails .feature1{
 			left:5%;
 		}
-		#features .feature2{
+		#trails .feature2{
 			left:20%;
 			margin-top: 140px;
 		}
-		#features .feature3{
+		#trails .feature3{
 			right:20%;
 			margin-top: 140px;
 		}
-		#features .feature4{
+		#trails .feature4{
 			right:5%;
 		}
 	}
 	@media (max-width: 992px) {
-		#features .feature1{
+		#trails .feature1{
 			left:0%;
 		}
-		#features .feature2{
+		#trails .feature2{
 			left:15%;
 			margin-top: 140px;
 		}
-		#features .feature3{
+		#trails .feature3{
 			right:15%;
 			margin-top: 140px;
 		}
-		#features .feature4{
+		#trails .feature4{
 			right:0%;
 		}
 		#header .container{
@@ -1247,15 +1267,15 @@
 			padding-bottom:60px;
 			height:inherit;
 		}
-		#features{
+		#trails{
 			min-height:inherit;
 		}
-		#features .feature-button{
+		#trails .feature-button{
 			-webkit-transform:scale(0);
 			transform:scale(0);
 			opacity:0;
 		}
-		#features .box3d{
+		#trails .box3d{
 			opacity:0;
 		}
 	}

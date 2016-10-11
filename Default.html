@@ -1,0 +1,485 @@
+<%@ page language="C#" autoeventwireup="true" inherits="_Default, App_Web_default.aspx.cdcab7d2" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Arenatech</title>
+
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap-theme.min.css">
+    <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="css/slick.css" />
+    <link rel="stylesheet" type="text/css" href="css/slick-theme.css" />
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+
+    <meta charset="UTF-8">
+    <meta name="description" content="Integrada a agenda da Ciência e Tecnológia, no mês outubro, a Governança do Centro de Inovação e Tecnologia de Francisco Beltrão – CITFBE - está organizando a arenatech 2015.">
+    <meta name="keywords" content="tecnologia, inovação, estratégia de negócios, planejamento e gestão, empreendedorismo inovador" />
+
+    <!-- twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta property="twitter:site" content="Arenatech">
+    <meta property="twitter:title" content="Arenatech">
+    <meta property="twitter:description" content="Integrada a agenda da Ciência e Tecnológia, no mês outubro, a Governança do Centro de Inovação e Tecnologia">
+    <meta property="twitter:image" content="http://www.arenatech.org.br/images/ogtags/twitter.jpg">
+
+    <!-- facebook -->
+    <meta property="og:title" content="Arenatech">
+    <meta property="og:image" content="http://www.arenatech.org.br/images/ogtags/facebook.jpg)">
+    <meta property="og:site_name" content="Arenatech">
+    <meta property="og:description" content="Integrada a agenda da Ciência e Tecnológia, no mês outubro, a Governança do Centro de Inovação e Tecnologia.">
+    <meta property="og:url" content="http://www.arenatech.org.br">
+    <meta property="og:type" content="website">
+
+    <!-- mobile -->
+    <meta http-equiv="cleartype" content="on">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimal-ui">
+    <meta name="HandheldFriendly" content="True">
+    <meta name="MobileOptimized" content="320">
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="msapplication-tap-highlight" content="no" />
+
+    <!-- skype -->
+    <meta name="SKYPE_TOOLBAR" content="SKYPE_TOOLBAR_PARSER_COMPATIBLE">
+
+    <!-- configs -->
+    <meta name="robots" content="index, follow">
+    <meta name="google" content="notranslate">
+    <meta name="author" content="Ceicom ® www.ceicom.com.br">
+    <meta http-equiv="pragma" content="no-cache">
+    <meta name="revisit-after" content="1">
+
+    <!-- realFavicon -->
+    <link rel="apple-touch-icon" sizes="57x57" href="/images/favicon/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/images/favicon/apple-touch-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/images/favicon/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/images/favicon/apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/images/favicon/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/images/favicon/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/images/favicon/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/images/favicon/apple-touch-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-touch-icon-180x180.png">
+    <link rel="icon" type="image/png" href="/images/favicon/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="/images/favicon/favicon-194x194.png" sizes="194x194">
+    <link rel="icon" type="image/png" href="/images/favicon/favicon-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/png" href="/images/favicon/android-chrome-192x192.png" sizes="192x192">
+    <link rel="icon" type="image/png" href="/images/favicon/favicon-16x16.png" sizes="16x16">
+    <link rel="manifest" href="/images/favicon/manifest.json">
+    <link rel="shortcut icon" href="/images/favicon/favicon.ico">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/images/favicon/mstile-144x144.png">
+    <meta name="msapplication-config" content="/images/favicon/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+</head>
+<body>
+    <form id="form1" runat="server">
+
+        <div id="header" class="container-fluid">
+            <div class="color-overlay accent-color-bg"></div>
+            <div class="container-fluid logo-menu">
+                <div class="container">
+                    <div class="row">
+
+                        <div id="js-menu--header" class="ico-burguermenu">MENU</div>
+
+                        <ul class="fa-ul menu-header" hidden>
+                            <li><a class="menu-link" href="#info1">O Evento</a></li>
+                            <li><a class="menu-link" href="#trails">ArenaTrails</a></li>
+                            <li><a class="menu-link" href="#support">Faça Parte</a></li>
+                            <li><a class="menu-link" href="#info2">Desafio Arenatech</a></li>
+                            <li><a class="menu-link" href="#info3">Arena Tecnológica</a></li>
+                            <li><a class="menu-link" href="#info4">Arena do Conhecimento</a></li>
+                            <li><a class="menu-link" href="#contact">Entre em contato</a></li>
+                        </ul>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- O Evento -->
+        <div id="info1" class="container-fluid info">
+            <div class="container">
+                <div class="row">
+
+                    <div class="col-md-12 info-text">
+                        <h2 class="info-color1 text-center">O Evento</h2>
+                        <ul class="fa-ul">
+                            <li>Arenatech 2016, a ser realizado no período de 17 a 19 de Novembro, no Centro de Eventos Jaime Canet Jr de Francisco Beltrão.</li>
+                            <li>Integrada a agenda da Ciência e Tecnológica, no mês novembro, a Governança do Centro de Inovação e Tecnologia de Francisco Beltrão – CITFBE - está organizando o Arenatech 2016.</li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <!-- O que é? -->
+        <div class="container-fluid info">
+            <div class="container">
+                <div class="row">
+
+                    <div class="col-md-12 info-text">
+                        <h2 class="info-color2 text-center">O que é?</h2>
+                        <ul class="fa-ul">
+                            <li>O Arenatech é um evento que acontece em um espaço gigante e compartilhado, um grande networking promovendo as novas tecnologias, gerando desenvolvimento e inovação contínua em Francisco Beltrão e região.
+                            </li>
+
+                            <li>
+                                Na Arena Central serão discutidos assuntos ligados à tecnologias de ponta, com vários espaços voltados a criatividade, haverá atividades separadas por 'trilhas' de assuntos específicos com foco na experimentação e conhecimento do público.
+                            </li>
+
+                            <li>
+                                O foco principal do Arenatech é a aproximação dos públics, em especial a universidade e empresas, e está voltado para: Estudantes de ensino fundamental II, médio e técnico, universitário, inventores, instituições de ensino e pesquisa, instituições de fomento, empreendedores e empresários e comunidade em geral. São esperadas mais de 10 mil pessoas, entre visitantes, expositores e participantes do evento.
+                            </li>
+                        </ul>
+                    </div>
+
+
+
+                    <!-- Objetivos -->
+                    <div  class="container-fluid info">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-12 info-text">
+                                    <h2 class="info-color3 text-center">Objetivos</h2>
+                                    <ul class="fa-ul">
+                                        <li>Que aliado a workshops, oficinas e palestras nos eixos da tecnologia, inovação, estratégia de negócios, planejamento e gestão tem o objetivo de estimular e promover o empreendedorismo inovador. </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <div id="trails" class="container-fluid">
+
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12 row-title accent-color-text">ArenaTech</div>
+                </div>
+                <div class="row feature-buttons-holder">
+
+                    <!-- logotipo box features -->
+                    <div class="box3d">
+                        <img src="/images/logotipo-arenatech.png">
+                    </div>
+                    <!-- -/- -->
+
+                    <div class="feature-button feature1 color1-bg inside-box-left" data-num="1">
+                        <div class="feature-title">I.O.T.</div>
+                        <div class="feature-line color1-border feature-line-hide"></div>
+                        <div class="feature-star fa fa-star color1 feature-star-hide"></div>
+                    </div>
+                    <div class="feature-button feature2 color2-bg inside-box-left" data-num="2">
+                        <div class="feature-title">Tecnologia em <br>Alimentos</div>
+                        <div class="feature-line color2-border feature-line-hide"></div>
+                        <div class="feature-star fa fa-star color2 feature-star-hide"></div>
+                    </div>
+                    <div class="feature-button feature3 color3-bg inside-box-right" data-num="3">
+                        <div class="feature-title">Eficiência<br>
+                            Energética
+                        </div>
+                        <div class="feature-line color3-border feature-line-hide"></div>
+                        <div class="feature-star fa fa-star color3 feature-star-hide"></div>
+                    </div>
+                    <div class="feature-button feature4 color4-bg inside-box-right" data-num="4">
+                        <div class="feature-title">ArenaGames</div>
+                        <div class="feature-line color4-border feature-line-hide"></div>
+                        <div class="feature-star fa fa-star color4 feature-star-hide"></div>
+                    </div>
+                    <div class="feature-button feature5 color5-bg inside-box-center" data-num="5">
+                        <div class="feature-title">Startups</div>
+                        <div class="feature-line color5-border feature-line-hide"></div>
+                        <div class="feature-star fa fa-star color5 feature-star-hide"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="support" class="container-fluid info">
+            <div class="container">
+                <div class="row">
+
+                    <div class="col-md-12 info-text">
+                    <h2 class="info-color3 text-center">Você no ArenaTech</h2>
+                        <ul class="fa-ul">
+                            <li>
+                                <h1>
+                                    <a target="_blank" class="center-block text-center" href="planos.html">Saiba como Participar</a>
+                                </h1>
+                            </li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <div id="info2" class="container-fluid info">
+            <div class="container">
+                <div class="row">
+
+                    <div class="col-md-12 info-text">
+                        <h2 class="info-color2 text-center">Desafio Arenatech</h2>
+                        <ul class="fa-ul">
+                            <li>
+                                <h1 class="apply-link">
+                                    <a target="_blank" class="info-color1" style="display: block; text-align: center; font-size: 0.8em;" href="arquivos/regulamento_desafio_arenatech_2016.pdf">Veja o Regulamento </a>
+                                </h1>
+                            </li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <!-- Arena Technologica  -->
+        <div id="info3" class="container-fluid info arenatecnologica">
+            <div class="container">
+                <div class="row">
+
+                    <div class="col-md-12 info-text">
+                        <h2 class="info-color1 text-center">Arena Tecnologica</h2>
+
+                        <ul class="fa-ul col-md-12 col-lg-12">
+                            <li class="col-md-4"><i class="fa-li fa fa-circle-thin info-color1"><i class="fa fa-check info-color1"></i></i>Exposições</li>
+                            <li class="col-md-4"><i class="fa-li fa fa-circle-thin info-color1"><i class="fa fa-check info-color1"></i></i>Mostras</li>
+                            <li class="col-md-4"><i class="fa-li fa fa-circle-thin info-color1"><i class="fa fa-check info-color1"></i></i>Experimentos </li>
+                            <li class="col-md-4"><i class="fa-li fa fa-circle-thin info-color1"><i class="fa fa-check info-color1"></i></i>Prática</li>
+                            <li class="col-md-4"><i class="fa-li fa fa-circle-thin info-color1"><i class="fa fa-check info-color1"></i></i>Arena Tecnológica</li>
+                            <li class="col-md-4"><i class="fa-li fa fa-circle-thin info-color1"><i class="fa fa-check info-color1"></i></i>Torneio de Games</li>
+                            <li class="col-md-4"><i class="fa-li fa fa-circle-thin info-color1"><i class="fa fa-check info-color1"></i></i>Simulador de voo </li>
+                            <li class="col-md-4"><i class="fa-li fa fa-circle-thin info-color1"><i class="fa fa-check info-color1"></i></i>Drone </li>
+                            <li class="col-md-4"><i class="fa-li fa fa-circle-thin info-color1"><i class="fa fa-check info-color1"></i></i>Xadrez 3D</li>
+                            <li class="col-md-4"><i class="fa-li fa fa-circle-thin info-color1"><i class="fa fa-check info-color1"></i></i>Arremesso de celular </li>
+                            <li class="col-md-4"><i class="fa-li fa fa-circle-thin info-color1"><i class="fa fa-check info-color1"></i></i>Lego</li>
+                            <li class="col-md-4"><i class="fa-li fa fa-circle-thin info-color1"><i class="fa fa-check info-color1"></i></i>Aplicativo para divulgação do evento </li>
+                            <li class="col-md-4"><i class="fa-li fa fa-circle-thin info-color1"><i class="fa fa-check info-color1"></i></i>Robô Code </li>
+                            <li class="col-md-4"><i class="fa-li fa fa-circle-thin info-color1"><i class="fa fa-check info-color1"></i></i>Hackaton </li>
+                            <li class="col-md-4"><i class="fa-li fa fa-circle-thin info-color1"><i class="fa fa-check info-color1"></i></i>Dojo </li>
+                            <li class="col-md-4"><i class="fa-li fa fa-circle-thin info-color1"><i class="fa fa-check info-color1"></i></i>Túnel do Tempo</li>
+                            <li class="col-md-4"><i class="fa-li fa fa-circle-thin info-color1"><i class="fa fa-check info-color1"></i></i>Aeromodelismo  </li>
+                        </ul>
+
+                        <ul class="col-xs-12 col-sm-6 col-md-12 col-lg-12">
+                            <li class="tecnologias col-md-3 text-center">
+                                <img src="/images/arenatecnologica/areatecnologia2.jpg" alt="">
+                            </li>
+                            <li class="tecnologias col-md-3 text-center">
+                                <img src="/images/arenatecnologica/areatecnologia1.jpg" alt="">
+                            </li>
+                            <li class="tecnologias col-md-3 text-center">
+                                <img src="/images/arenatecnologica/areatecnologia3.jpg" alt="">
+                            </li>
+                            <li class="tecnologias col-md-3 text-center">
+                                <img src="/images/arenatecnologica/areatecnologia4.jpg" alt="">
+                            </li>
+                        </ul>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <!-- Arena do Connhecimento  -->
+        <div id="info4" class="container-fluid info arenadoconhecimento">
+            <div class="container">
+                <div class="row">
+
+                    <div class="col-md-12 info-text">
+                        <h2 class="info-color3 text-center">Arena do Conhecimento</h2>
+
+                        <ul class="fa-ul col-md-12">
+                            <li class="col-md-4"><i class="fa-li fa fa-circle-thin info-color3 "><i class="fa fa-check info-color3"></i></i>Workshops</li>
+                            <li class="col-md-4"><i class="fa-li fa fa-circle-thin info-color3 "><i class="fa fa-check info-color3"></i></i>Feira de Profissões</li>
+                            <li class="col-md-4"><i class="fa-li fa fa-circle-thin info-color3 "><i class="fa fa-check info-color3"></i></i>Minicursos </li>
+                            <li class="col-md-4"><i class="fa-li fa fa-circle-thin info-color3 "><i class="fa fa-check info-color3"></i></i>Storytelling</li>
+                            <li class="col-md-4"><i class="fa-li fa fa-circle-thin info-color3 "><i class="fa fa-check info-color3"></i></i>Palestras</li>
+                            <li class="col-md-4"><i class="fa-li fa fa-circle-thin info-color3 "><i class="fa fa-check info-color3"></i></i>Oficinas</li>
+                            <li class="col-md-4"><i class="fa-li fa fa-circle-thin info-color3 "><i class="fa fa-check info-color3"></i></i>Workshops (Design Thinking, Canvas)</li>
+                            <li class="col-md-4"><i class="fa-li fa fa-circle-thin info-color3 "><i class="fa fa-check info-color3"></i></i>Storytelling (empreendedor) </li>
+                            <li class="col-md-4"><i class="fa-li fa fa-circle-thin info-color3 "><i class="fa fa-check info-color3"></i></i>Minicursos (economia criativa, Arduino)</li>
+                            <li class="col-md-4"><i class="fa-li fa fa-circle-thin info-color3 "><i class="fa fa-check info-color3"></i></i>Palestras (Magnas)</li>
+                            <li class="col-md-4"><i class="fa-li fa fa-circle-thin info-color3 "><i class="fa fa-check info-color3"></i></i>Bar Camp </li>
+                            <li class="col-md-4"><i class="fa-li fa fa-circle-thin info-color3 "><i class="fa fa-check info-color3"></i></i>Feira de Profissões</li>
+                            <li class="col-md-4"><i class="fa-li fa fa-circle-thin info-color3 "><i class="fa fa-check info-color3"></i></i>Rodada de Negócios</li>
+                            <li class="col-md-4"><i class="fa-li fa fa-circle-thin info-color3 "><i class="fa fa-check info-color3"></i></i>Atrações Culturais </li>
+                            <li class="col-md-4"><i class="fa-li fa fa-circle-thin info-color3 "><i class="fa fa-check info-color3"></i></i>Realização </li>
+                        </ul>
+
+                        <ul class="col-xs-12 col-sm-6 col-md-12 col-lg-12">
+                            <li class="tecnologias col-md-4 text-center">
+                                <img src="/images/arenadoconhecimento/arenadoconhecimento1.jpg" alt="">
+                            </li>
+                            <li class="tecnologias col-md-4 text-center">
+                                <img src="/images/arenadoconhecimento/arenadoconhecimento2.jpg" alt="">
+                            </li>
+                            <li class="tecnologias col-md-4 text-center">
+                                <img src="/images/arenadoconhecimento/arenadoconhecimento3.jpg" alt="">
+                            </li>
+                        </ul>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <!-- realizadores -->
+        <div class="partners-promo container-fluid">
+            <div class="container">
+                <div class="row">
+                 <div class="col-xs-12">
+                     <h2 class="info-color3 text-center">Promoção</h2>
+                 </div>
+                 <div class="col-xs-12">
+                    <div class="text-center">
+                        <div>
+                            <img class="promo-image" src="/images/partners/prefeitura-fb.png" alt=""/>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="partners" class="container-fluid">
+        <div class="container">
+            <div class="row">
+             <div class="col-xs-12">
+                 <h2 class="info-color3 text-center">Realização</h2>
+             </div>
+             <div class="col-xs-12">
+                <div class="partners-slider">
+                    <div>
+                        <img src="/images/partners/citfbe.png" alt=""/>
+                    </div>
+
+                    <div>
+                        <img src="/images/partners/texcel.png" alt=""/>
+                    </div>
+
+                    <div>
+                        <img src="/images/partners/findex.png" alt=""/>
+                    </div>
+
+                    <div>
+                        <img src="/images/partners/acefb.png" alt=""/>
+                    </div>
+
+                    <div>
+                        <img src="/images/partners/nubetec.png" alt=""/>
+                    </div>
+
+                    <div>
+                        <img src="/images/partners/sebrae.png" alt=""/>
+                    </div>
+
+                    <div>
+                        <img src="/images/partners/senai.png" alt=""/>
+                    </div>
+
+                    <div>
+                        <img src="/images/partners/unioeste.png" alt=""/>
+                    </div>
+
+                    <div>
+                        <img src="/images/partners/unipar.png" alt=""/>
+                    </div>
+
+                    <div>
+                        <img src="/images/partners/unisep.png" alt=""/>
+                    </div>
+
+                    <div>
+                        <img src="/images/partners/utfpr.png" alt=""/>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div id="contact" class="container-fluid accent-color-bg">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 row-title">Entre em contato </div>
+        </div>
+
+        <div class="row">
+
+            <div class="col-sm-5">
+                <br>
+                <div class="sub-title">Informações de Contato</div>
+                <p>
+                    Rua Tenente Camargo, 490
+                    <br>
+                    Bairro Luther King, CEP 85605-090 
+
+                    <p><strong>(46) 3524-5922</strong></p>
+                    <a href="mailto:comunicacao.citfbe@gmail.com" class="color-white">comunicacao.citfbe@gmail.com</a><br>
+                    <a href="mailto:centrodeinovacaoetecnologia@gmail.com" class="color-white">centrodeinovacaoetecnologia@gmail.com</a>
+                </div>
+                <br>
+                <div class="col-sm-7">
+                    <div class="form-items-holder">
+                        <input type="text" name="name" placeholder="Name" required>
+                        <input type="email" name="email" placeholder="Email" required>
+                        <div class="form-label">Message</div>
+                        <textarea name="description" required></textarea>
+                        <div class="ajax-button">
+                            <div class="fa fa-check done"></div>
+                            <div class="fa fa-close failed"></div>
+                            <input id="submit" type="submit" value="enviar" runat="server">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- Modal -->
+    <div class="modal fade" id="challangeModal" role="dialog">
+        <div class="modal-dialog">
+
+          <!-- Modal content-->
+          <div class="modal-content">
+              <div class="modal-body">
+                 <button type="button" class="close" data-dismiss="modal">&times;</button>
+                 <a target="_blank" href="https://docs.google.com/forms/d/165Ar9ldNwdMjvEvv57wWEHRPN8xNd4u_nlfw7ORC78s">
+                    <img class="img-responsive" src="images/findex_panfleto_desafio_arenatech.jpg" alt="Desafio Arenatech 2016" title="Desafio Arenatech 2016"/>
+                </a>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-default center-block" data-dismiss="modal">Fechar</button>
+          </div>
+      </div>
+
+  </div>
+</div>
+
+<script src="js/jquery-1.11.2.min.js"></script>
+<script src="js/jquery.validate.min.js"></script>
+<script
+src="http://code.jquery.com/ui/1.12.0/jquery-ui.js"
+integrity="sha256-0YPKAwZP7Mp3ALMRVB2i8GXeEndvCq3eSl/WsAl1Ryk="
+crossorigin="anonymous"></script>
+
+<script src="js/bootstrap.min.js"></script>
+<script src="js/slick.min.js"></script>
+<script src="js/easeljs-0.7.1.min.js"></script>
+<script src="js/tweenjs-0.5.1.min.js"></script>
+<script src="js/movieclip-0.7.1.min.js"></script>
+<script src="js/logo.js"></script>
+<script src="js/main.js?v=1.0"></script>
+</form>
+</body>
+</html>

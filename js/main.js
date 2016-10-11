@@ -126,6 +126,9 @@ $(document).ready(function() {
 	    setTimeout(function () {
 	        $(".feature4").removeClass("inside-box-right");
 	    }, 700);
+	    setTimeout(function () {
+	        $(".feature5").removeClass("inside-box-center");
+	    }, 800);
 
 	    return false;
 	}
@@ -149,6 +152,7 @@ $(document).ready(function() {
 	    $(".feature2").addClass("inside-box-left");
 	    $(".feature3").addClass("inside-box-right");
 	    $(".feature4").addClass("inside-box-right");
+	    $(".feature5").addClass("inside-box-center");
 
 	    setTimeout(function () {
 	        closing = false;
