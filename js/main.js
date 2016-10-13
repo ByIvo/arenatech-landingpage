@@ -3,7 +3,15 @@
 var wSize = function( type ){
     if (type == 'h') return window.innerHeight || document.documentElement.clientHeight || document.body.clientHeight;
     else if (type == 'w') return window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth;
-}
+};
+
+var trailVisitors = {
+	"1": "iot.html",
+	"2": "tec_alimentos.html",
+	"3": "eficiencia_energetica.html",
+	"4": "arenagames.html",
+	"5": "startups.html",
+};
 
 $(window).on('resize', function () {
     if (wSize('w') >= 800) $('.menu-header').removeAttr('style');
@@ -24,6 +32,11 @@ $(document).ready(function() {
 	}
 
 	$("#challangeModal").modal();
+
+	$(".feature-button").click(function(event) {
+		var dataNum = $(event.currentTarget).attr("data-num");
+		window.location.href = trailVisitors[dataNum];
+	});
 
 	$("#form1").validate({
   		submitHandler: function(form) {
